@@ -12,13 +12,15 @@ const myArr2 = new Array(1, 2, 3, 4)
 // myArr.push(7)
 // myArr.pop()
 
-// myArr.unshift(9)
-// myArr.shift()
+ myArr.unshift(9) // add elements in the starting
+ console.log("A",myArr); 
+ myArr.shift()
+ console.log("B",myArr); //remove element form starting of the array
 
-// console.log(myArr.includes(9));
+console.log(myArr.includes(9)); //true false element is present or not
 // console.log(myArr.indexOf(3));
 
-// const newArr = myArr.join()
+// const newArr = myArr.join() // join all the element using different symbols
 
 // console.log(myArr);
 // console.log( newArr);
@@ -34,6 +36,5 @@ console.log(myn1);
 console.log("B ", myArr);
 
 
-const myn2 = myArr.splice(1, 3)
+const myn2 = myArr.splice(1, 3) // change the original array also
 console.log("C ", myArr);
-console.log(myn2);
