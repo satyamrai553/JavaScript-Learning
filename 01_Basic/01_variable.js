@@ -5,6 +5,7 @@ const accountID = 121213
 let accountEmail ="satyamrai550@gmail.com"
 var accountPassword ="12345678"
 accountCity ="Noida"
+let accountState;
 
 
 //accountID = 3445665  //This is not allowed
@@ -14,4 +15,4 @@ accountEmail = "satyamrai553@gamil.com"
 accountPassword ="009977733"
 accountCity ="Delhi"
 
-console.table([accountEmail,accountPassword,accountCity,accountID]);
+console.table([accountEmail,accountPassword,accountCity,accountID,accountState]);
