@@ -9,8 +9,8 @@ console.log(3
 console.log("Hitesh")
 
 
-let name = "hitesh"
-let age = 18
+let name = "satyam"
+let age = 22
 let isLoggedIn = false
 let state;
 
@@ -20,7 +20,7 @@ let state;
 // boolean => true/false
 // null => standalone value
 // undefined => 
-// symbol => unique
+// symbol => unique 
 
 
 // object
